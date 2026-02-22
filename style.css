@@ -1,0 +1,156 @@
+/* --- BASIC GADGET SHOP CSS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background: #232f3e; /* Dark Navy */
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .logo span {
+    color: #ff9800; /* Orange */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+.card {
+	transition:0.5s ease;
+	cursor:pointer;
+}
+
+.card:hover {
+	transform: scale(1.05)
+}
+
+
+/* Sections */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    border-radius: 25px;
+	box-shadow:3px 1px 20px rgba(0,0,0,1);
+	
+	
+	
+}
+
+.container{
+	transition:0.5s ease;
+	cursor:pointer;
+}
+
+
+.container:hover {
+	transform: scale(1.02)
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff9800;
+    display: inline-block;
+}
+
+/* Hero Section (Home) */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #eee;
+    margin-bottom: 20px;
+}
+
+.hero h1 { font-size: 2.5rem; }
+.btn {
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Product Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Form (Contact) */
+input, textarea {
+    width: 100%;
+
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #232f3;
+    color: black;
+    margin-top: 40px;
+}
